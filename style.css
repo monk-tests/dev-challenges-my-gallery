@@ -1,5 +1,6 @@
 /* figma link: https://www.figma.com/file/HHzg6Ywq8jamFTB0J4iXKM/my-gallery-challenge?node-id=1%3A2&t=kOgTzFL4gV7f5Bv8-0 */
 
+
 :root {
     --clr-background: #ffffff;
 
@@ -114,10 +115,8 @@ select {
     max-width: 960px;
     padding: 0 .75rem;
     margin: 0 auto;
+    margin-bottom: 2rem;
     font-family: var(--ff--primary);
-}
-img {
-    /* width: 100px; */
 }
 
 .user-profile-pic {
@@ -151,7 +150,7 @@ img {
 /* * mobile */
 
 .profile {
-    margin-top: 2rem;
+    padding-top: 2rem;
     display: flex;
     gap: 0.75rem;
     flex-direction: column;
@@ -228,7 +227,7 @@ img {
 @media (min-width: 800px)
 {
     .profile {
-        margin-top: 4rem;
+        padding-top: 4rem;
     }
     .user-profile-pic {
         width: 156px;
@@ -269,3 +268,29 @@ img {
     }
 }
 
+/* credit */
+
+.credit {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+
+    color: #a9a9a9;
+    font-family:'Montserrat', sans-serif;;
+    font-size: 14px;
+}
+.credit a {
+    color: inherit;
+}
+.credit--user {
+    font-weight: var(--fw-bold);
+}
+.credit--devchallenges {
+    text-decoration: none;
+}
+/* @media (min-width: 900px) {
+    .credit {
+        display: flex;
+    }
+} */
